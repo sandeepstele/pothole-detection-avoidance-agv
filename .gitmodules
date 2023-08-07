@@ -1,0 +1,3 @@
+[submodule "agv_ws/src/zed_interfaces"]
+	path = agv_ws/src/zed_interfaces
+	url = git@github.com:stereolabs/zed-ros2-interfaces.git

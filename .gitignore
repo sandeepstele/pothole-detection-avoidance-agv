@@ -1,0 +1,10 @@
+agv_ws/build
+agv_ws/install
+agv_ws/log
+build/
+install/
+log/
+*.pt
+*.mp4
+__pycache__/
+.vscode/
