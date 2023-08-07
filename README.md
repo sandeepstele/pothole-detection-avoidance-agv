@@ -80,4 +80,4 @@ Leen Daher: [GitHub](https://github.com/Line-D) | [LinkedIn](https://www.linkedi
 
 Yara Ghaddar: [GitHub](https://github.com/yaraghaddar) | [LinkedIn](https://www.linkedin.com/in/yara-ghaddar-27b41518b/) | `yag04@mail.aub.edu`
 
-Omar Chaaban: [GitHub](https://github.com/OmSh01) | [LinkedIn](https://www.linkedin.com/in/omar-shaaban-01500322a/) |`oms20@mail.aub.edu`
+Omar Chaaban: [GitHub](https://github.com/OmSh01) | [LinkedIn](https://www.linkedin.com/in/omar-chaaban-01500322a/) |`oms20@mail.aub.edu`
