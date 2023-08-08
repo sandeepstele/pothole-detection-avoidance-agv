@@ -68,7 +68,7 @@ YOLOv8 is property of [Ultralytics](https://ultralytics.com/yolov8). The ZED Cam
 
 # License
 
-
+This code is made open-source under the [MIT License](https://opensource.org/license/mit/). Please note, however, that the [YOLOv8 model from the ultralytics python library](https://ultralytics.com/yolov8) is licensed under the [GNU AGPL-3.0 License](https://www.gnu.org/licenses/agpl-3.0.en.html) which disallows commercial use. Should this code be used for commercial purposes, it must be modified appropriately or a commercial license must be obtained from [Ultralytics](https://ultralytics.com/license).
 
 # Contact
 
