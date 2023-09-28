@@ -56,6 +56,14 @@ If connecting to the AUB AGV, run the arduino interface node as well: `ros2 run 
 | `svo` | Runs the system on a prerecorded svo file. Give an absolute path to an svo file: `svo:=[path]`. |
 | `weights` | Change the weights used for the test. Make sure to put the weights in `agv_ws/src/system_resources/weights`, and provide only the filename. |
 
+# Video
+
+
+
+https://github.com/AUBVRL/pothole-detection-avoidance-agv/assets/75396332/37f3ed12-182d-4ca6-93b4-ac5bb1a61ac1
+
+
+
 # Citation
 
 Citation pending.
