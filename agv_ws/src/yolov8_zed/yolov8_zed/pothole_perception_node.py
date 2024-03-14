@@ -26,8 +26,8 @@ from geometry_msgs.msg import Point
 from nav_msgs.msg import Odometry
 
 from ultralytics import YOLO
-from ultralytics.yolo.engine.results import Results
-from ultralytics.yolo.utils.ops import masks2segments
+from ultralytics.engine.results import Results
+from ultralytics.utils.ops import masks2segments
 from typing import List
 
 from yolov8_zed.load_zed import LoadZED
@@ -465,8 +465,9 @@ class PotholePerceptionNode(Node):
                 self.send_bboxes(bbox_global)
 
 
-    def terminate(self):
+    def destroy_node(self):
         cv2.destroyAllWindows()
+        super().destroy_node()
 
 
 def parse_opt():
@@ -483,7 +484,7 @@ def parse_opt():
     return opt, unknown
 
 
-def main(args=None):
+def main():
     opt, _ = parse_opt()
 
     rclpy.init()
@@ -493,8 +494,6 @@ def main(args=None):
     while rclpy.ok():
 
         pothole_perception_node.run()
-
-    pothole_perception_node.terminate()
 
     pothole_perception_node.destroy_node()
     

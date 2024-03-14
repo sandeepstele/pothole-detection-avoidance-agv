@@ -4,6 +4,7 @@ agv_ws/log
 build/
 install/
 log/
+model/
 *.pt
 *.mp4
 __pycache__/
